@@ -192,3 +192,92 @@ acima é a estilização do site referente a home, onde está o conversor e algu
 .sobremim p{
     margin: 10px 0px;
 }
+
+@media screen and (max-width: 1140px) {
+    .sobremim{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobremim .leftText{
+        width: 80vh;
+    }
+
+    .sobremim .leftText{
+        align-items: center;
+    }
+
+    .sobremim .rightText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+    .sobremim p{
+        font-size: 15px;
+    }
+
+    .sobremim .leftText{
+        width: 70vh;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+    .sobremim .leftText{
+        width: 60vh;
+    }
+
+
+}
+@media screen and (max-width: 600px) {
+    
+    .sobremim .leftText{
+        width: 50vh;
+    }
+
+    img{
+        width: 500px;
+    }
+    iframe{
+        width: 500px;
+    }
+
+
+}
+@media screen and (max-width: 500px) {
+    
+    img{
+        width: 400px;
+    }
+    iframe{
+        width: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 450px) {
+    
+    .sobremim .leftText{
+        width: 40vh;
+    }
+
+    img{
+        width: 320px;
+    }
+    iframe{
+        width: 320px;
+    }
+
+}

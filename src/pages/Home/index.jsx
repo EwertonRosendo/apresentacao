@@ -96,21 +96,21 @@ function Home(){
                     <div className="years" id="input">
                         <label >converter de</label>
                         
-                        <select name="" id="left" onChange={e => changingOpt(e.target.value)} >
+                        <select className='select' name="" id="left" onChange={e => changingOpt(e.target.value)} >
                             <option value='years'><p>Anos Luz</p></option>
                             <option value='kms'><p>Kilometros</p></option>
                         </select>
-                        <input type="number" name="" id="" placeholder={valor} onChange={ e => saveValue(e.target.value) }/>
+                        <input className='input' type="number" name="" id="" placeholder={valor} onChange={ e => saveValue(e.target.value) }/>
                     </div>
     
                     <div className="kms" id="input">
                         <label><p>para</p></label>
-                        <select name="" id="right" placeholder={"TESTE"} disabled>
+                        <select className='select' name="" id="right" placeholder={"TESTE"} disabled>
                             <option><p>{leftText}</p></option>
                             
                         </select>
 
-                        <input type="number"  name="" id="" value={valorConvertido} disabled/>
+                        <input className='input' type="number"  name="" id="" value={valorConvertido} disabled/>
                     </div>
                 </div>
                 <div className="button" >
