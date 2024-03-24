@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto React NetCon
 
-## Available Scripts
+Este projeto tem o objetivo de apresentar a criação das funções solicitadas no documento, que são: Uma tela de home, onde deve constar  um conversor de kilometros para anos luz, e virse versa, uma tela de apresentação do candidato, e também o mock das telas de Login e Logout.
+## Funcionalidades
 
-In the project directory, you can run:
+- Home
+- Infos
+- Login
+- Logout
 
-### `npm start`
+Na tela de Home temos o conversor, onde há um select, que você pode escolher a opção de origem da conversão, por exemplo, se você escolhe Kilometros, o campo que será convertido muda automaticamente para Anos Luz. Fazendo com que você apenas precise escolher o campo da esquerda, colocar o valor que deseja e pressionar o campo desejado para realizar a conversão. Apos clicar no botão um item é adicionado na tabela com as informaões de Id, Dia, e os valores em Kilometros e Anos Luz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A tela de Info foi utilizada para me apresentar melhor, e contar um pouco mais da minha historia para vocês que estão lendo.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+E há também as telas de Login e Logout, que são o mock, assim como o solicitado.
 
-### `npm test`
+## Autores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@EwertonRosendo](https://www.github.com/EwertonRosendo)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação
+Em primeiro lugar você precisa ter o node instalado em seu computador, para então executar o projeto, para isso, vá a pagina do [Node.Js](https://nodejs.org/en/download/current) e realize o download e a instalação do mesmo.
+Entre no diretorio raiz do projeto e execute o comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Então, todos os modulos necessarios vão ser instalados. Em Segundo lugar você deve executar o comando para iniciar o projeto:
 
-### `npm run eject`
+```bash
+  npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+E então uma pagina no localhost e com a porta 3000 será aberta, e então você poderá fazer uso das ferramentas disponiveis.
+## Imagens das telas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Home](https://github.com/EwertonRosendo/apresentacao/blob/master/src/images/Home.png?raw=true)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Infos](https://github.com/EwertonRosendo/apresentacao/blob/master/src/images/Infos.png?raw=true)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Login](https://github.com/EwertonRosendo/apresentacao/blob/master/src/images/Login.png?raw=true)
 
-## Learn More
+![Logout](https://github.com/EwertonRosendo/apresentacao/blob/master/src/images/Logout.png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
