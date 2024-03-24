@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "theoffice";
+    text-align: justify;
+}
+
+@font-face {
+    font-family: theoffice;
+    src: url(./TYPIST.TTF);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #171717;
+    padding: 30px;
+    color: white;
+    
+}
+.menu p{
+    padding: 5px 7px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu p:hover{
+    background-color: #4184d2;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-2px);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+.conversor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+label{
+    margin: 10px 0px;
+}
+.inputs{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.conversor select{
+    width: 450px;
+    padding: 10px;
+    font-size: 20px;
+    border-width: 2px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(112, 112, 112);
+}
+
+select:hover{
+    border-color: #4184d2;;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-2px);
+}
+
+select:focus {
+    border: 2px solid #4184d2;
+  }
+
+#input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Pode ser necessário definir a margem como 0 para evitar espaçamento extra */
+}
+
+input{
+    padding-left: 10px;
+    margin-top: 8px;   
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(131, 131, 131);
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 2px solid #4184d2;
+  }
+
+input:hover{
+    border-color: #4184d2;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-2px);
+}
+
+button{
+    padding-left: 10px;
+    margin-top: 8px;   
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(131, 131, 131);
+    outline: none;
+}
+
+
+button[type=number]:focus {
+    border: 2px solid #4184d2;
+  }
+
+
+button:hover{
+    border-color: #4184d2;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-2px);
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texts p{
+    margin: 20px 40px;
+    
+}
+
+.texts h2{
+    margin: 15px 40px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.videos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+/*
+acima é a estilização do site referente a home, onde está o conversor e alguns videos e textos explicativos
+*/
+
+.sobremim{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 50px;
+}
+.sobremim img{
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+}
+.leftText{
+    width: 45%;
+}
+
+.rightText{
+    width: 30%;
+}
+
+.sobremim p{
+    margin: 10px 0px;
+}
+
+table {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #171717;
+}
+
+table table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+table th {
+    background-color: #333; 
+    color: #fff; 
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #8f8f8f; 
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #a1a1a1; 
+}
+
+table tbody tr:hover{
+    background-color: #4184d2;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-2px);
+}
