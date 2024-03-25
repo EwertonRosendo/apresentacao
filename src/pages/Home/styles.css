@@ -251,7 +251,26 @@ table tbody tr:hover{
         flex-direction: column;
         align-items: center;
     }
-
+    table{
+        width: 50vh;
+    }
+    td{
+        width: 50vh;
+        font-size: 15px;
+    }
+    th{
+        width: 50vh;
+        font-size: 15px;
+    }
+    tr{
+        width: 50vh;
+    }
+    thead{
+        width: 50vh;
+    }
+    tbody{
+        width: 50vh;
+    }
     .input{
         width: 450px;
     }
@@ -276,5 +295,23 @@ table tbody tr:hover{
 
     .title {
         font-size: 10px;
+    }
+    table{
+        width: 40vh;
+    }
+    td{
+        width: 40vh;
+    }
+    th{
+        width: 40vh;
+    }
+    tr{
+        width: 40vh;
+    }
+    thead{
+        width: 40vh;
+    }
+    tbody{
+        width: 40vh;
     }
 }
